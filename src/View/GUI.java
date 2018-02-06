@@ -30,7 +30,7 @@ public class GUI extends JFrame {
 		setJMenuBar(menuBar);
 		
 		setSize(600, 750);
-		setResizable(false);
+		//setResizable(false);
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		setLocation(dim.width / 2 - this.getSize().width / 2, dim.height / 2 - this.getSize().height / 2);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
